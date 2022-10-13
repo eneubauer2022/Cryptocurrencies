@@ -8,7 +8,7 @@ In this module we were using Unsupervised Machine learning to analyze cryptocurr
 
 We had to run through several steps to prepared the data: including dropping null values, using our tradeable or mined cryptocurrencies, using the get_dummies functions to assign numbers to the categories, and scaling the data using StandScaler() method within Panada.
 
-# E-Blow Curve
+## E-Blow Curve
 
 The eblow curve helped us determine that the optimal number of clusters was 4. We then used this in our K-Means model.
 
