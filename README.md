@@ -8,15 +8,25 @@ In this module we were using Unsupervised Machine learning to analyze cryptocurr
 
 We had to run through several steps to prepared the data: including dropping null values, using our tradeable or mined cryptocurrencies, using the get_dummies functions to assign numbers to the categories, and scaling the data using StandScaler() method within Panada.
 
-## E-Blow Curve
+![image](https://github.com/eneubauer2022/Cryptocurrencies/blob/main/Images/pca.png)
 
-The eblow curve helped us determine that the optimal number of clusters was 4. We then used this in our K-Means model.
+## Elbow Curve
+
+The elbow curve helped us determine that the optimal number of clusters was 4. We then used this in our K-Means model.
+
+![image](https://github.com/eneubauer2022/Cryptocurrencies/blob/main/Images/elbow.png)
 
 ## 3D Scatter plot
 
 Below is the 3D scatter plot that shows the 4 different clusters.
 
+![image](https://github.com/eneubauer2022/Cryptocurrencies/blob/main/Images/scatter.png)
+
 ## hvTable
 
+![image](https://github.com/eneubauer2022/Cryptocurrencies/blob/main/Images/hvplot.png)
+
 ## hvScatter
+
+![image](https://github.com/eneubauer2022/Cryptocurrencies/blob/main/Images/scatter.png)
 
